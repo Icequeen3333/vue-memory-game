@@ -10,8 +10,8 @@ import { mapGetters } from 'vuex'
 
 export default {
   computed: {
-    ...mapGetters(['highestSpeed'])
-  }
+    ...mapGetters(['highestSpeed']),
+  },
 }
 </script>
 

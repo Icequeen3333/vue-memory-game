@@ -12,7 +12,7 @@ import MatchInfo from './MatchInfo'
 import Score from './Score'
 
 export default {
-  components: { Logo, MatchInfo, Score }
+  components: { Logo, MatchInfo, Score },
 }
 </script>
 

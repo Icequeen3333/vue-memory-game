@@ -16,14 +16,14 @@ export default {
   },
 
   flip(st, card) {
-    var c = st.cards.find(cc => cc === card)
+    var c = st.cards.find((cc) => cc === card)
     c.flipped = !c.flipped
   },
 
   flips(st, cards) {
     st.cards
-      .filter(cc => cards.indexOf(cc) >= 0)
-      .forEach(cc => {
+      .filter((cc) => cards.indexOf(cc) >= 0)
+      .forEach((cc) => {
         cc.flipped = !cc.flipped
       })
   },
@@ -39,5 +39,5 @@ export default {
     if (localStorage.getItem('highestSpeed') > st.elapsedMs) {
       return localStorage.setItem('highestSpeed', st.elapsedMs)
     }
-  }
+  },
 }

@@ -24,8 +24,8 @@ export default {
   // 通过mapActions将actions映射到methods里
 
   methods: {
-    ...mapActions(['updateStatus', 'reset'])
-  }
+    ...mapActions(['updateStatus', 'reset']),
+  },
 }
 </script>
 

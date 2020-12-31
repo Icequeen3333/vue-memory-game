@@ -13,7 +13,7 @@ const state = {
   highestSpeed: 0,
   status: '',
   cards: [],
-  elapsedMs: 0
+  elapsedMs: 0,
 }
 
 export default new Vuex.Store({
@@ -21,5 +21,5 @@ export default new Vuex.Store({
   actions,
   mutations,
   getters,
-  strict: process.env.NODE_ENV !== 'production'
+  strict: process.env.NODE_ENV !== 'production',
 })

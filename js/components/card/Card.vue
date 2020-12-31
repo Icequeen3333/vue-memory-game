@@ -26,10 +26,10 @@ export default {
       default() {
         return {
           flipped: false,
-          cardName: ''
+          cardName: '',
         }
-      }
-    }
+      },
+    },
   },
 
   methods: {
@@ -40,8 +40,8 @@ export default {
       }
       this.flipCard(this.option)
       this.$emit('flipped', this.option)
-    }
-  }
+    },
+  },
 }
 </script>
 

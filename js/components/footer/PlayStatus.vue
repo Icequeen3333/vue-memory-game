@@ -18,12 +18,12 @@ export default {
   },
 
   computed: {
-    ...mapGetters(['status', 'elapsedMs'])
+    ...mapGetters(['status', 'elapsedMs']),
   },
 
   methods: {
-    ...mapActions(['reset'])
-  }
+    ...mapActions(['reset']),
+  },
 }
 </script>
 

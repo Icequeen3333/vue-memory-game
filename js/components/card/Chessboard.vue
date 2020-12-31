@@ -15,12 +15,12 @@ export default {
   components: { Card },
   data() {
     return {
-      lastCard: null
+      lastCard: null,
     }
   },
 
   computed: {
-    ...mapGetters(['leftMatched', 'cards', 'status'])
+    ...mapGetters(['leftMatched', 'cards', 'status']),
   },
 
   methods: {
@@ -42,8 +42,8 @@ export default {
       setTimeout(() => {
         this.flipCards([lastCard, e])
       }, 1000)
-    }
-  }
+    },
+  },
 }
 </script>
 
